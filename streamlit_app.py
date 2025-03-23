@@ -5,12 +5,8 @@ st.title('🎈 App Name')
 import pandas as pd
 
 # Create a sample DataFrame
-data = {
-    'Name': ['Alice', 'Bob', 'Charlie'],
-    'Age': [25, 30, 35],
-    'City': ['New York', 'Los Angeles', 'Chicago']
-}
-df = pd.DataFrame(data)
+
+df = pd.DataFrame('ObesityDataSet_raw_and_data_sinthetic.csv')
 
 # Display the DataFrame
 st.dataframe(df)
